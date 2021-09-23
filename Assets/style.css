@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* padding: 20px 35px; */
+    justify-content: space-between;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../Assets/Images/Brett.png);
+    color: #d3d3d3;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 0 30px #FF69B4;
+
+}
+header img {
+    width: 25%;
+    border-radius: 50%;
+}
+header h1 {
+    font-size: 70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-style: italic;
+}
+header h2 {
+    padding: 10px 20px;
+}
+header a {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+header nav {
+    margin: 0;
+}
+header nav ul {
+    padding: 10px 15px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background-color: #3a3b3c;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    font-style: italic;
+    color:lightblue;
+    text-shadow: 0 0 20px #7DF9FF;
+}
