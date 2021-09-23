@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #3a3b3c;
+    --secondary-color: #d3d3d3;
+    --tertiary-color: #ff69b4;
+    --quaternary-color: #7df9ff;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,14 +14,18 @@ header {
     /* padding: 20px 35px; */
     justify-content: space-between;
     background-image: url(../Assets/Images/Brett.png);
-    color: #d3d3d3;
+    color: var(--secondary-color);
     text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0 0 30px #FF69B4;
+    text-shadow: 0 0 30px var(--tertiary-color);
 }
 header img {
     width: 15%;
+    border-style: solid;
+    border-width: 3px;
     border-radius: 50%;
+    border-color: violet;
+    box-shadow: 0 0 40px var(--tertiary-color);
 }
 header h1 {
     font-size: 100px;
@@ -41,15 +51,16 @@ header a {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    background-color: #3a3b3c;
+    background-color: var(--primary-color);
 }
 .sticky ul li a {
+    text-decoration: none;
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 40px;
     font-style: italic;
     color:lightblue;
-    text-shadow: 0 0 20px #7DF9FF;
+    text-shadow: 0 0 20px var(--quaternary-color);
 }
 .sticky {
     position: sticky;
