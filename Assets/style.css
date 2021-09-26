@@ -74,6 +74,9 @@ header a {
 .about-me h2 {
     font-size: 70px;
 }
+.about-me p {
+    font-size: 20px;
+}
 
 .project-tiles {
     background-color: #242526;
@@ -158,6 +161,12 @@ header a {
 .contact-section h2 {
     font-size: 70px;
 }
+.contact-section h3 {
+    font-size: 40px;
+}
+.contact-section p, a {
+    font-size: 20px;
+}
 
 @media screen and (max-width: 980px) {
     html,body {
@@ -201,5 +210,8 @@ header a {
     }
     .project-text img {
         height: auto;
+    }
+    .contact-section {
+        text-align: center;
     }
 }
